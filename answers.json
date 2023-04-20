@@ -1,0 +1,24 @@
+{
+  "task_1": {
+    "source_image": "images\\menger.jpg",
+    "result_image": "images\\task_1.png",
+    "threshold": 110
+  },
+  "task_2": {
+    "source_image": "images\\book.jpg",
+    "result_image": "images\\task_2.png",
+    "params": {
+      "canny": {
+        "sigma": 1,
+        "low_threshold": 0.04,
+        "high_threshold": 1
+      },
+      "binary_closing_footprint_width": 4
+    }
+  },
+  "task_3": {
+    "source_image_file_first": "images\\book.jpg",
+    "source_image_file_second": "images\\book3.jpg",
+    "result_image": "images\\task_3_result.png"
+  }
+}
